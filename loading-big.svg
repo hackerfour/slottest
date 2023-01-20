@@ -1,0 +1,61 @@
+<svg class="svg-class" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .a {
+        fill: #e0e0e0;
+      }
+
+      .b {
+        opacity: 0.1;
+      }
+
+      .c {
+        opacity: 0.3;
+      }
+
+      .d {
+        opacity: 0.6;
+      }
+
+      .e {
+        opacity: 0.9;
+      }
+
+      .svg-class {
+        width: 2em !important;
+        height: 2em !important;
+        vertical-align: middle;
+        animation-name: spin;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: steps(8);
+      }
+
+      @keyframes spin {
+        from {
+          transform:rotate(0deg);
+        } to {
+          transform:rotate(360deg);
+        }
+      }
+    </style>
+  </defs>
+  <title>loading</title>
+  <circle class="a" cx="25" cy="25" r="12.87"/>
+  <path class="a" d="M5.34,24.2a19.59,19.59,0,0,1,5.19-12.53L6.75,7.89A24.89,24.89,0,0,0,0,24.2Z" transform="translate(0 0)"/>
+  <path class="a" d="M11.67,10.53A19.59,19.59,0,0,1,24.2,5.34V0A24.89,24.89,0,0,0,7.89,6.75Z" transform="translate(0 0)"/>
+  <g class="b">
+    <path class="a" d="M25.8,0V5.34a19.59,19.59,0,0,1,12.53,5.19l3.78-3.78A24.89,24.89,0,0,0,25.8,0Z" transform="translate(0 0)"/>
+  </g>
+  <path class="a" d="M10.53,38.33A19.59,19.59,0,0,1,5.34,25.8H0A24.89,24.89,0,0,0,6.75,42.11Z" transform="translate(0 0)"/>
+  <path class="a" d="M24.2,44.66a19.59,19.59,0,0,1-12.53-5.19L7.89,43.25A24.89,24.89,0,0,0,24.2,50Z" transform="translate(0 0)"/>
+  <g class="c">
+    <path class="a" d="M39.47,11.67A19.59,19.59,0,0,1,44.66,24.2H50A24.89,24.89,0,0,0,43.25,7.89Z" transform="translate(0 0)"/>
+  </g>
+  <g class="d">
+    <path class="a" d="M44.66,25.8a19.59,19.59,0,0,1-5.19,12.53l3.78,3.78A24.89,24.89,0,0,0,50,25.8Z" transform="translate(0 0)"/>
+  </g>
+  <g class="e">
+    <path class="a" d="M38.33,39.47A19.59,19.59,0,0,1,25.8,44.66V50a24.89,24.89,0,0,0,16.31-6.75Z" transform="translate(0 0)"/>
+  </g>
+</svg>

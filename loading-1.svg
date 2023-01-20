@@ -1,0 +1,66 @@
+<svg class="svg-class" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .a {
+        fill: #e0e0e0;
+      }
+
+      .b {
+        opacity: 0.1;
+      }
+
+      .c {
+        opacity: 0.3;
+      }
+
+      .d {
+        opacity: 0.6;
+      }
+
+      .e {
+        opacity: 0.9;
+      }
+
+      .f {
+        fill: none;
+      }
+
+      .svg-class {
+        width: 2em !important;
+        height: 2em !important;
+        vertical-align: middle;
+        animation-name: spin;
+        animation-duration: 500ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: steps(8);
+      }
+
+      @keyframes spin {
+        from {
+          transform:rotate(0deg);
+        } to {
+          transform:rotate(360deg);
+        }
+      }
+    </style>
+  </defs>
+  <title>loading</title>
+  <circle class="a" cx="25" cy="25" r="4.36"/>
+  <path class="a" d="M18.34,24.73a6.61,6.61,0,0,1,1.76-4.25L18.82,19.2a8.39,8.39,0,0,0-2.29,5.53Z"/>
+  <path class="a" d="M20.48,20.1a6.61,6.61,0,0,1,4.25-1.76V16.53a8.39,8.39,0,0,0-5.53,2.29Z"/>
+  <g class="b">
+    <path class="a" d="M25.27,16.53v1.81a6.61,6.61,0,0,1,4.25,1.76l1.28-1.28A8.39,8.39,0,0,0,25.27,16.53Z"/>
+  </g>
+  <path class="a" d="M20.1,29.52a6.61,6.61,0,0,1-1.76-4.25H16.53a8.39,8.39,0,0,0,2.29,5.53Z"/>
+  <path class="a" d="M24.73,31.66a6.61,6.61,0,0,1-4.25-1.76L19.2,31.18a8.39,8.39,0,0,0,5.53,2.29Z"/>
+  <g class="c">
+    <path class="a" d="M29.9,20.48a6.61,6.61,0,0,1,1.76,4.25h1.81a8.39,8.39,0,0,0-2.29-5.53Z"/>
+  </g>
+  <g class="d">
+    <path class="a" d="M31.66,25.27a6.61,6.61,0,0,1-1.76,4.25l1.28,1.28a8.39,8.39,0,0,0,2.29-5.53Z"/>
+  </g>
+  <g class="e">
+    <path class="a" d="M29.52,29.9a6.61,6.61,0,0,1-4.25,1.76v1.81a8.39,8.39,0,0,0,5.53-2.29Z"/>
+  </g>
+  <rect class="f" width="50" height="50"/>
+</svg>
